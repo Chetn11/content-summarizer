@@ -11,8 +11,8 @@ const Navbar = () => {
         <Link href="/">Content Summarizer</Link>
       </div>
       <div className={styles.links}>
-        <Link href="/login" className={styles.link}>Login</Link>
-        <Link href="/signup" className={styles.link}>Signup</Link>
+        {/* <Link href="/login" className={styles.link}>Login</Link>
+        <Link href="/signup" className={styles.link}>Signup</Link> */}
       </div>
     </nav>
   );
