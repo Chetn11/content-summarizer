@@ -16,7 +16,7 @@ export default function Home() {
         "https://content-summarizer-backend.vercel.app/generate",
         { prompt }
       );
-      console.log(res);
+      // console.log(res);
       setSummary(res.data);
     } catch (error) {
       console.error("Error fetching data:", error);
