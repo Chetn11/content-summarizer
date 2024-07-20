@@ -10,7 +10,9 @@
   /* height: 100vh; */
   
 }
-
+.input_area{
+  margin-top: 60px;
+}
 .input_area,
 .output_area {
   display: flex;
@@ -58,4 +60,68 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+
+.file_upload_area {
+  padding: 20px;
+  height: 300px;
+  display: block;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file_upload_area h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.file_upload_area form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file_upload_area label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.file_upload_area input[type="file"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.file_upload_area button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.file_upload_area button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.file_upload_area button[type="submit"][disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.type{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.type button{
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  color: white;
+  background-color: black;
 }
