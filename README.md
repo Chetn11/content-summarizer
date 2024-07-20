@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# AI-Powered Content Summarization and Analysis Tool
+This application allows users to upload text content (articles, documents, emails, etc.) and receive a summarized version with key insights and analysis. 
 
-```bash
+# Features
+File Upload: Supports uploading files.
+AI Analysis: Integrates with AI services to perform text analysis and summarization.
+Topic Information: Shows topic classification and confidence.
+Keywords Extraction: Lists the keywords extracted from the text.
+
+# Technologies Used
+Frontend: Next.js, React.js
+Backend: Node.js, Express.js
+AI Service: Google Gemini
+
+
+# Getting Started
+Prerequisites
+Node.js and npm installed on your machine.
+Google Gemini API enabled.
+
+
+
+# Running the Application
+
+Start the frontend application:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and navigate to http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Summary:Display summary of content in short form
+Keywords: Displays the extracted keywords.
+Sentiments: Shows the sentiment score and magnitude.
+Topic Information: Provides topic classification.
+home page
+![Image](./src/image/home.PNG)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Image](./src/image/home2.PNG)
 
-## Learn More
+![Image](./src/image/after%20uploading%20file.PNG)
 
-To learn more about Next.js, take a look at the following resources:
+![Image](./src/image/after%20uploding%202.PNG)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Image](./src/image/a3.PNG)
